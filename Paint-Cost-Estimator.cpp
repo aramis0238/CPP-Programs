@@ -1,11 +1,11 @@
 /*
     Aramis M. Figueroa
 
-    paintEstimator.cpp
+    Paint-Cost-Estimator.cpp
 
-    Based on the price of the paint per gallon, number of rooms to be painted, and square feet of wall speace in each room 
-    this will be a program to create a report showing: The number of gallons of paint required, cost of the paint,
-    hours of labor required, labor charges and the total cost of the paint job. 
+    Based on the price of the paint per gallon, number of rooms to be painted, and square feet of wall space in each room 
+    this will be a program to create a report showing: The number of gallons of paint required, the cost of the paint,
+    hours of labor required, labor charges, and the total cost of the paint job. 
 
     Input:  Price per gallon of paint - pricePaint, 
             number of rooms to be painted - rooms, 
