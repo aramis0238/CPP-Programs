@@ -23,7 +23,6 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include <windows.h>
 using namespace std;
 
 // Constants
@@ -206,16 +205,6 @@ int getResponse(){
 void updateAccumulator(int response, int questionNum, char answers[][NUM_ANSWERS], int& lionCount, int& otterCount, int& beaverCount, int& retrieverCount) {
     
    
-    // // print out answers 2d array for testing
-    for (int i = 0; i < NUM_QUESTIONS; i++) {
-        for (int j = 0; j < NUM_ANSWERS; j++) {
-            cout << answers[i][j] << " ";
-        }
-        cout << endl;
-    }
-    cout << "This is response - " << response << endl;
-    cout << "This is questionNum - " << questionNum << endl;
-    cout << "This is answers[questionNum-1][response] during updateAccumulator - " << answers[questionNum-1][response -1] << endl;
     if (answers[questionNum-1][response-1] == 'L' ) {
                 lionCount++;
     }
